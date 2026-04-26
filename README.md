@@ -3,7 +3,7 @@ SystemVerilog project designed to animate the two 4-digit 7-segment displays on 
 
 ## Features
 
-Toggle between two animations using an onboard switch.
+Toggle between the two snaking animations using an onboard switch.
 
 Speed control via two switches, with selectable clock frequencies of 5Hz, 10Hz, 15Hz, and 30Hz, using two onboard switches.
 
