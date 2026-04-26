@@ -1,5 +1,5 @@
 # FPGAnimations
-SystemVerilog project designed to animate the two 4-digit 7-segment displays on the RealDigital Boolean Board.
+SystemVerilog project designed to animate Eight 7-Segment displays on the RealDigital Boolean Board.
 
 ## Features
 
