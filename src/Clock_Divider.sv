@@ -15,7 +15,7 @@ module Clock_Divider#
     logic [24:0] count_divided = 0;
     logic [24:0] current_limit;
     
-     //Multiplexor
+     //Multiplexer
     always_comb 
     begin
         case(speed_sel)
@@ -29,12 +29,12 @@ module Clock_Divider#
         endcase
     end
     
-    assign clock_divided = (count_divided >= current_limit); // >= pt cand dam switch
+    assign clock_divided = (count_divided >= current_limit);
     
     //Counter
     always_ff @(posedge clock or posedge reset) 
     begin
-        if(reset == 1) // reset asincron
+        if(reset == 1)
             begin
                 count_divided <= 0;
             end
