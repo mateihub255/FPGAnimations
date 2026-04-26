@@ -10,7 +10,7 @@ module Decoder(
         if(sel == 0)
             begin
                 out0 = in;
-                out1 = 36; // EXPERIMENT - POSIBIL SA NU MEARGA
+                out1 = 36;
             end 
         else
             begin
