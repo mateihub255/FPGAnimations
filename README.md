@@ -23,5 +23,5 @@ top.sv : The top-level module that instantiates and connects all the modules men
 
 ## Requirements
 
-This project was developed using **Vivado 2020**. <br>
+This project was developed using **Vivado 2020.2**. <br>
 It is written in SystemVerilog and was designed for the RealDigital Boolean Board, using its 100MHz clock, both groups of 4 digit 7-segment displays, four switches and one pushbutton.
