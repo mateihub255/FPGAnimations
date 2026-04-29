@@ -5,7 +5,7 @@ SystemVerilog project designed to animate Eight 7-Segment displays on the RealDi
 
 Toggle between the two snaking animations using an onboard switch.
 
-Speed control via two switches, with selectable clock frequencies of 5Hz, 10Hz, 15Hz, and 30Hz, using two onboard switches.
+Speed control via two switches, with selectable clock frequencies of 5Hz, 10Hz, 15Hz, and 30Hz.
 
 Enable switch and Reset pushbutton.
 
